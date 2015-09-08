@@ -88,6 +88,14 @@ $(document).ready(function() {
 	 	  
   });
   
+   $('#top-face-popup').on('click', function(event){
+	  event.stopPropagation();
+	 	  
+  });
+  
+  
+  
+  
  $('#spec-menu').css('height', 'auto');
  var curHeight = $('#spec-menu').height();
  $('#spec-menu').css('height', "0px");

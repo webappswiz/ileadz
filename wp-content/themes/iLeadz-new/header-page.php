@@ -153,6 +153,10 @@ $(document).ready(function() {
 	  $('#top-face-popup').slideUp();
 	 	  
   });
+   $('#top-face-popup').on('click', function(event){
+	  event.stopPropagation();
+	 	  
+  });
 
   
  $('#spec-menu').css('height', 'auto');
